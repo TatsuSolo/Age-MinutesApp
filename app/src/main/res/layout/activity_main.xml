@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
+    android:padding="16dp"
 
     android:background="@color/colorBackground"
     tools:context=".MainActivity">
@@ -14,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="@string/calculate_your"
+        android:text="Calculate Your"
         android:textColor="#844046"
         android:textColorHint="#000000"
         android:textSize="25sp"
@@ -34,5 +35,53 @@
         android:background="@color/ageBackground"
         android:textSize="25sp"
         android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="In Minutes"
+        android:textColor="#844046"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/buttonColor"
+        android:text="SELECT DATE"
+        android:textColor="@color/buttonTextColor"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/TextViewSelectColor"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Selected DATE"
+        android:textColor="@color/TextViewSelectColor"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/ResultColor"
+        android:textSize="35sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Age In Minutes"
+        android:textColor="@color/ResultColor"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>
