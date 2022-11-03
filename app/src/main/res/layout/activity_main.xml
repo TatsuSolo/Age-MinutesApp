@@ -12,6 +12,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -21,6 +22,7 @@
         android:textSize="25sp"
         android:textStyle="bold" />
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -29,13 +31,13 @@
         android:paddingBottom="4dp"
         android:paddingLeft="13dp"
         android:paddingRight="13dp"
-
         android:textColor="@color/ageTextColor"
         android:textColorHint="#000000"
         android:background="@color/ageBackground"
         android:textSize="25sp"
         android:textStyle="bold" />
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -45,6 +47,7 @@
         android:textStyle="bold" />
 
     <Button
+        android:id="@+id/DatePicker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -54,12 +57,14 @@
         android:textSize="18sp"
         android:textStyle="bold" />
     <TextView
+        android:id="@+id/selectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20sp"
         android:textColor="@color/TextViewSelectColor"
         android:textSize="20sp"/>
     <TextView
+        android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -68,12 +73,14 @@
         android:textSize="20sp"
         android:textStyle="bold"/>
     <TextView
+        android:id="@+id/selectedDateInMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20sp"
         android:textColor="@color/ResultColor"
         android:textSize="35sp"/>
     <TextView
+        android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
